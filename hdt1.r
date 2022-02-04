@@ -1,7 +1,7 @@
 
 library(dplyr)
 #ejercicio4.1
-movies <- read.csv("C:/Users/Mustella 3D/Downloads/movies.csv");
+movies <- read.csv("movies.csv");
 budget2<- data.frame(movies[order(-movies$budget),])
 mm22 <- data.frame(budget2$title, budget2$budget)
 head(mm22,10)
